@@ -4,7 +4,7 @@ A personal travel journal application built with React, showcasing places I've v
 
 ## 📸 Screenshot
 
-![Travel Journal Screenshot](https://raw.githubusercontent.com/LikhithaBodepudi/my-travel-journal/main/assets/travel-journal-screenshot.png)
+![Travel Journal Screenshot](https://raw.githubusercontent.com/LikhithaBodepudi/my-travel-journal/main/src/assets/travel-journal-screenshot.png)
 
 ## ✨ Features
 
