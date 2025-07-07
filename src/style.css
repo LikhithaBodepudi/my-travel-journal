@@ -19,6 +19,8 @@ body{
     width: 24px; 
     height: 24px;
     margin-right: 7px;
+    position: relative; 
+    top: 6px;
 }
 .cards-list {
     padding: 40px; 
@@ -43,6 +45,7 @@ body{
     width: 125px;
     height: 168px;
     object-fit: cover;
+   /* object-fit: contain;*/
     border-radius: 5px;
     margin-right: 19px;
 }

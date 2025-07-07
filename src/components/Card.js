@@ -1,9 +1,17 @@
 import React from 'react';
+import gatewayImage from '../assets/gateway.jpg';
 
 export default function Card(props){
+    let imageSource;
+    if (props.id === 4) { 
+        imageSource = gatewayImage;
+    } else {
+       
+        imageSource = props.imageUrl; 
+    }
     return(
         <div className="card">
-            <img src={'./${props.imageUrl}'} className="card--image" alt={props.title} />
+            <img src={imageSource} className="card--image" alt={props.title} /> 
             <div className="card--content">
                 <div className="card--location-info">
                     <i className="fa-solid fa-location-dot card--location-icon"></i> {/* This is a location pin icon */}

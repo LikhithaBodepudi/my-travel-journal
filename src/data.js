@@ -1,4 +1,4 @@
-export default[
+const travelData=[
     {
         id: 1, // Unique ID for each entry (important for React keys)
         title: "Taj Mahal",
@@ -37,9 +37,11 @@ export default[
         startDate: "18 Jan, 2025",
         endDate: "20 Jan, 2025",
         description:"The Gateway of India is an iconic arch monument in Mumbai, built to commemorate the 1911 landing of King George V and Queen Mary, and later served as a symbolic entry/exit point for India.",
-        imageUrl:"https://www.planetware.com/photos-large/IND/india-top-attractions-gateway-india.jpg"
+        imageUrl:"gateway.jpg"
 
     }
 
 
 ]
+
+export default travelData;
